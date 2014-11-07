@@ -1,0 +1,31 @@
+.news-item{
+  @include flex(0 0 30%);
+
+  border: 1px solid $primary-color;
+  margin: 10px 0;
+
+  > a {
+	display: block;
+
+	&:hover {
+	  background: $secondary-color;
+	}
+  }
+}
+
+.news-list-item__title{
+
+}
+
+.news-list-item__publication-date{
+
+}
+
+.news-list-item__content{
+
+}
+
+.news-list-item__footer{
+
+}
+

@@ -1,0 +1,28 @@
+<template name="newsNew">
+	{{#if currentUser}}
+
+        <form id="news-new__form">
+            <div class="row">
+                <div class="large-5 columns center">
+                    <label>Title
+                        <input type="text" id="news-new__form-title"/>
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-5 columns center">
+                    <label>Content
+                        <textarea id="news-new__form-content"></textarea>
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-5 columns center">
+                    <button type="submit">Create news item</button>
+                </div>
+            </div>
+        </form>
+	{{else}}
+        <h2>NOOOOOO ACCESS</h2>
+	{{/if}}
+</template>

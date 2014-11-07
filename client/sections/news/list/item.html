@@ -1,0 +1,11 @@
+<template name="newsItem">
+    <article class="news-item">
+        <a href="{{pathFor 'newsShow' view=_id}}">
+            <header>
+                <h2>{{title}}</h2>
+            </header>
+            <time>{{formatDate publicationDate}}</time>
+            <section class="news-item__content">{{content}}</section>
+        </a>
+    </article>
+</template>

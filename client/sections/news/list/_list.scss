@@ -1,0 +1,13 @@
+.news-list {
+
+}
+
+.news-list__container {
+  @include flexbox((
+		  display: flex,
+		  flex-direction: row
+  ));
+  @include flex-wrap(wrap);
+  @include align-items(flex-start);
+  @include justify-content(space-between);
+}

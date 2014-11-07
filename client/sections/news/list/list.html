@@ -1,0 +1,12 @@
+<template name="newsList">
+    <section class="news-list">
+        <header>
+            <h1>News</h1>
+        </header>
+        <section class="news-list__container">
+			{{#each this}}
+				{{> newsItem}}
+			{{/each}}
+        </section>
+    </section>
+</template>
